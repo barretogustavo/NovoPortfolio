@@ -4,6 +4,7 @@ import './App.css';
 import Header from './Components/Header';
 import Orange from './Components/Orange';
 import Title from './Components/Title';
+//import Container_box from './Components/Container';
 
 import {BrowserRouter} from 'react-router-dom';
 import Routes from './router'
@@ -12,10 +13,10 @@ import Routes from './router'
 const Page = ()=>{
   return(
     <BrowserRouter>
-      <Header/>
-      <Orange/>
-      <Title/>
-      <Routes />    
+        <Header/>
+        <Orange/>
+        <Title/>
+        <Routes />    
     </BrowserRouter>
   );
 }

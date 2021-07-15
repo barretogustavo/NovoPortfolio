@@ -19,6 +19,7 @@ ul .project_word{
 }
 
 header{
+    width: 1200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +29,8 @@ img{
     width: 80px;
 }
 .logotipo{
-    margin:0 35% 0 35%;
+    margin:0 35% 0 35%; 
+    float:left;
 }
 .darkmode{
     margin:20px 44% 0 35%;
@@ -38,7 +40,10 @@ img{
             cursor: pointer;
         }
 }
-
+nav{
+    width:500px;
+    margin-left:60px;
+}
 nav ul{
     display: flex;
     justify-content: center;
@@ -53,8 +58,8 @@ nav ul{
                 &:hover{
                     cursor: pointer;
                     border-bottom: solid 2px #e9723d;
-        }
                 }
         }
+    }
 }
 `;
