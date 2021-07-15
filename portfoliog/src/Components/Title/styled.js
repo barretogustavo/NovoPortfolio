@@ -20,6 +20,7 @@ div{
     h1{
         font-weight: bold;
         font-size: 3em;
+        margin-bottom: 0;
     }    
     h2{
         font-size: 1em;

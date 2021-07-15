@@ -38,6 +38,10 @@ img{
     height: 30px;
         &:hover{
             cursor: pointer;
+            width: 40px;
+            height: 40px;
+            transition:0.1s;
+            margin-left:34.1%;
         }
 }
 nav{
@@ -58,6 +62,7 @@ nav ul{
                 &:hover{
                     cursor: pointer;
                     border-bottom: solid 2px #e9723d;
+                    margin-top:8px;
                 }
         }
     }

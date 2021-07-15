@@ -15,7 +15,7 @@ const Page = ()=>{
     <BrowserRouter>
         <Header/>
         <Orange/>
-        <Title/>
+        <Title />
         <Routes />    
     </BrowserRouter>
   );
