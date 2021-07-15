@@ -13,7 +13,7 @@ const Page = ()=>{
             <ul>
                 <li>HOME</li>
                 <li>CONTATO</li>
-                <li>PROJETOS</li>
+                <li className="project_word">PROJETOS</li>
             </ul>
         </nav>
     <img className="darkmode" src={darkmode}/> 
