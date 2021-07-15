@@ -13,6 +13,9 @@ height: 100px;
 
 ul .project_word{
     color: black;
+        &:hover{
+            border-bottom:solid 2px black;
+        }
 }
 
 header{
