@@ -1,5 +1,6 @@
 import React from 'react';
-import { Area_Header } from './styled';
+import { Area_Header} from './styled';
+
 import logotipo from './img/logogb.png';
 import darkmode from './img/darkmodeicon1.png';
 
