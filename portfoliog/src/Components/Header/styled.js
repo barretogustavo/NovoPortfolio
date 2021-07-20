@@ -2,7 +2,6 @@ import Styled from 'styled-components';
 
 export const Area_Header = Styled.div`
 width: 100vw;
-//min-width: 1200px;
 height: 100px;
     background-color:transparent;
         display: flex;
@@ -19,34 +18,44 @@ ul .project_word{
 }
 
 header{
-    width: 1200px;
+    width: 60%; /*1200px*/
+    min-width:600px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    
+    @media(max-width:599px){
+        min-width: 300px;
+    }
 }
 
 img{
     width: 80px;
 }
 .logotipo{
-    margin:0 35% 0 35%; 
-    float:left;
+    margin:0 0 0 0;  /*0 35% 0 35%;*/
 }
 .darkmode{
-    margin:20px 44% 0 35%;
-    width: 30px;
-    height: 30px;
+    margin:12px 0 0 60px; /*20px 44% 0 35%;*/
+    width: 60px;
+    height: 60px;
         &:hover{
             cursor: pointer;
+            transform: rotate(720deg);
+            transition:2s;
+        }
+        @media(max-width:400px){
             width: 40px;
             height: 40px;
-            transition:0.1s;
-            margin-left:34.1%;
         }
 }
 nav{
     width:500px;
-    margin-left:60px;
+    margin-left:0; /*60px*/
+
+    @media(max-width:599px){
+        display: none; /*Libera o burguer menu*/
+    }
 }
 nav ul{
     display: flex;
@@ -58,7 +67,7 @@ nav ul{
             font-size:20px;
             color: #e9723d;
             list-style: none;
-            margin: 10px 0 0 15%;
+            margin: 10px 0 0 20px;
                 &:hover{
                     cursor: pointer;
                     border-bottom: solid 2px #e9723d;
