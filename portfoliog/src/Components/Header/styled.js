@@ -73,6 +73,19 @@ nav ul{
                     border-bottom: solid 2px #e9723d;
                     margin-top:8px;
                 }
+                .a_default{
+                    text-decoration:none;
+                    &:visited{
+                        color:#e9723d;
+                    }
+                }
+                .a_different{
+                    text-decoration:none;
+                    &:visited{
+                        color:black;
+                    }
+                }
+
         }
     }
 }

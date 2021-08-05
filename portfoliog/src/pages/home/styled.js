@@ -179,11 +179,9 @@ justify-content: center;
             transition: .2s;
         }
         &:hover span{
-            transition: .2s;
             display: block !important; /*Libera a descrição do projeto*/
         }
         &:hover .Button_about{
-            transition: .2s;
             display: block !important;
         }
 
@@ -218,18 +216,26 @@ export const Button_about = styled.button`
 display:none;
 border:none;
 border-radius: 15px;
-width: 150px;
-height: 40px;
+width: 100px;
+height: 20px;
 margin-top: 20px;
-margin-left: 65px;
+margin-left: 90px;
 background-color: black;
 color:white;
 
             &:hover{
                 transition: .1s;
                 cursor: pointer;
-                width: 145px;
-                height: 35px;   
+                margin-left: 95px;
+                width: 90px;
+                height: 18px;   
+            }
+            a{
+                text-decoration: none;
+                &:visited{
+                    text-decoration: none;
+                    color:white;
+                }
             }
 `;
 
@@ -251,9 +257,13 @@ border-bottom-right-radius: 30px;
 display: flex;
 justify-content: center;
 color: white;
+            &:hover img{
+                transform: rotate(15deg);
+                transition: .2s;
+                }
 
             img{
-                position: absolute;
+                position: absolute;                
             }
             div{
                 margin-top:200px;
@@ -269,4 +279,68 @@ color: white;
                 font-size:35px;
                 margin-top: 0;
             }
+`;
+
+export const Contact = styled.div`
+
+width: 100%;
+height: auto;
+padding: 5px;
+
+    .contact_box{
+        width: 100%;
+        height: 120px;
+        margin-bottom: 80px;
+        display: flex;
+        align-items: center;
+
+        .back_contact{
+            font-size: 70px;
+            margin-left: 20px;
+            color: transparent;
+            opacity: 20%;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: #e9723d;
+            position: relative;
+            z-index: 1;
+
+            a{
+                text-decoration: none;
+                color: transparent;
+                
+                &:visited{
+                    text-decoration: none;
+                    color: transparent;
+                }
+            }
+        }
+
+        .front_contact{
+            font-size: 30px;
+            color: #e9723d;
+            position: absolute;
+            z-index: 2;
+            margin-left: 180px;
+        }
+    }
+
+    img{
+        width: 100px;
+        margin: 10px;
+    }
+
+    .contact_box:hover .back_contact{
+        opacity: 100%;
+        transition: 1s;
+        cursor: pointer;
+
+        a{            
+        color: #e9723d;
+        }
+    }
+    .contact_box:hover .front_contact{
+        opacity: 0%;
+        transition: .1s;
+        cursor: pointer;
+    }
 `;

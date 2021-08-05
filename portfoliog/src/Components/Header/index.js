@@ -12,9 +12,9 @@ const Page = ()=>{
     <img className="logotipo" src={logotipo}/> 
         <nav>
             <ul>
-                <li>HOME</li>
-                <li>CONTATO</li>
-                <li className="project_word">PROJETOS</li>
+                <li>BLOG</li>
+                <li> <a className="a_default" href="#Contact">CONTATO</a></li>
+                <li className="project_word"><a className="a_different" href="#Projects">PROJETOS</a></li>
             </ul>
         </nav>
     <img className="darkmode" src={darkmode}/> 
