@@ -31,12 +31,12 @@ return(<div className="container">
             <h1>Gustavo Barreto</h1>
             <h2>Front-end Developer Trainee</h2>
              <h3>
-                Estudante de Ciência da Computação e desde sempre apaixonado por tecnologia. Meu grande objetivo é me tornar um Full Stack Developer. Logo abaixo você pode ver alguns dos meus projetos e minhas habilidade.
+                Estudante de Ciência da Computação e desde sempre apaixonado por tecnologia. Meu grande objetivo é me tornar referência na área da tecnologia e poder contribuir para crescer e melhorar a comunidade. Logo abaixo você pode ver alguns dos meus projetos e minhas habilidade.
             </h3>
             
 
         <div className="div_Button_responsive">
-            <Button_main>Entrar em contato</Button_main>
+            <a href="#Contact"><Button_main>Entrar em contato</Button_main></a>
         </div>
         </div>
         </Title>
@@ -132,21 +132,27 @@ return(<div className="container">
             </Habilidades>
             <Section_title>CONTATO</Section_title>
             <Contact id="Contact">
+            <a className="a_responsive_adjustment" href="https://www.instagram.com/gustavobarreto.dev/" target="_blank">
                 <div className="contact_box">
                     <img src={instaIcon} />
-                    <h2 className="back_contact"><a href="https://www.instagram.com/gustavobarreto.dev/" target="_blank">@gustavobarreto.dev</a></h2>
+                    <h2 className="back_contact">@gustavobarreto.dev</h2>
                     <h2 className="front_contact">@gustavobarreto.dev</h2>
                 </div>
+            </a>
+            <a className="a_responsive_adjustment" href="mailto:gbarreto.alves@gmail.com?subject=Proposta%20de%20emprego">
                 <div className="contact_box">
                     <img src={mailIcon} />
-                    <h2 className="back_contact"><a href="mailto:gbarreto.alves@gmail.com?subject=Proposta%20de%20emprego">gbarreto.alves@gmail.com</a></h2>
+                    <h2 className="back_contact">gbarreto.alves@gmail.com</h2>
                     <h2 className="front_contact">@gustavobarreto.dev</h2>
                 </div>
+            </a>
+            <a className="a_responsive_adjustment" href="https://www.linkedin.com/in/gustavobarretodev/" target="_blank">
                 <div className="contact_box">
                     <img src={linkedinIcon} />
-                    <h2 className="back_contact"><a href="https://www.linkedin.com/in/gustavobarretodev/" target="_blank">Gustavo Barreto</a></h2>
+                    <h2 className="back_contact">Gustavo Barreto</h2>
                     <h2 className="front_contact">Gustavo Barreto</h2>
                 </div>
+            </a>
             </Contact>
 
 
