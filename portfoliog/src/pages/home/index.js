@@ -16,13 +16,6 @@ import mailIcon from './img_home/mailIcon.png';
 import linkedinIcon from './img_home/linkedinIcon.png'
 
 const Page = ()=>{
-   
-    function getPercentageValue(){
-        
-        let percentageValue = document.querySelector('.percentage_h3');
-
-        console.log(percentageValue); 
-}getPercentageValue();
 
 return(<div className="container">
         <AreaMain>            
