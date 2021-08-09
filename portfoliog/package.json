@@ -1,6 +1,6 @@
 {
   "name": "portfoliog",
-  "homepage": "https://barretogustavo.github.io/portfoliog",
+  "homepage": "./",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
