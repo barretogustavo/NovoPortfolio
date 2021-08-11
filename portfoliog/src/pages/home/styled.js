@@ -227,6 +227,18 @@ justify-content: center;
                 text-align: center;
             }
         }
+
+        .swipe_smartphone{
+            position: absolute;
+            transform: rotate(-90deg);
+            margin-right: 10px;
+            color: white;
+            display: none;
+
+            @media(max-width:640px){
+                display: block;
+            }
+        }
 }
 `;
 

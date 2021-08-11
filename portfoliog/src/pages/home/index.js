@@ -6,11 +6,14 @@ import csslogo from './img_home/csslogo.png';
 import htmllogo from './img_home/htmllogo.png';
 import jslogo from './img_home/jslogo.png';
 import reactlogo from './img_home/reactlogo.png';
+
 import img_project1 from './img_home/project1.png';
 import img_project2 from './img_home/project2.png';
 import img_project3 from './img_home/project3.png';
 import img_project4 from './img_home/project4.png';
 import img_project5 from './img_home/project5.png';
+import img_project6 from './img_home/project6.png';
+
 import instaIcon from './img_home/instaIcon.png';
 import mailIcon from './img_home/mailIcon.png';
 import linkedinIcon from './img_home/linkedinIcon.png'
@@ -46,14 +49,16 @@ return(<div className="container">
             <Projects_content>
                 <div className="project1" id="project_style">
                     <img src={img_project1} />
-                    <div className="name_project" id="name_project_effect">E-commerce de Pizza 
+                    <h2 className="swipe_smartphone">➜</h2>
+                    <div className="name_project" id="name_project_effect">E-commerce de Pizza
                         <span><br/><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fermentum at tellus a dictum. Nullam ex arcu, pellentesque ac iaculis vel, cursus sed tellus. Vestibulum quis lorem a erat commodo commodo.</span>
-                        <Button_about className="Button_about"><a href="" target="_blank">Ver projeto</a></Button_about>
+                        <Button_about className="Button_about"><a href="https://barretogustavo.github.io/Ecommerce-Pizza/" target="_blank">Ver projeto</a></Button_about>
                         <Button_about className="Button_about"><a href="https://github.com/barretogustavo/Ecommerce-Pizza" target="_blank">GitHub</a></Button_about>
                     </div>
                 </div>
                 <div className="project1" id="project_style">
-                    <img src={img_project2} />                    
+                    <img src={img_project2} /> 
+                    <h2 className="swipe_smartphone">➜</h2>                   
                     <div className="name_project" id="name_project_effect">Clima Hoje 
                         <span><br/><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fermentum at tellus a dictum. Nullam ex arcu, pellentesque ac iaculis vel, cursus sed tellus. Vestibulum quis lorem a erat commodo commodo.</span>
                         <Button_about className="Button_about"><a href="https://barretogustavo.github.io/ClimaTempo/" target="_blank">Ver projeto</a></Button_about>
@@ -62,14 +67,16 @@ return(<div className="container">
                 </div>
                 <div className="project1" id="project_style">
                     <img src={img_project3} />
+                    <h2 className="swipe_smartphone">➜</h2>
                     <div className="name_project" id="name_project_effect">Estude Inglês 
                         <span><br/><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fermentum at tellus a dictum. Nullam ex arcu, pellentesque ac iaculis vel, cursus sed tellus. Vestibulum quis lorem a erat commodo commodo.</span>
-                        <Button_about className="Button_about"><a href="" target="_blank">Ver projeto</a></Button_about>
-                        <Button_about className="Button_about"><a href="" target="_blank">GitHub</a></Button_about>
+                        <Button_about className="Button_about"><a href="https://barretogustavo.github.io/LearnVerbs-project/" target="_blank">Ver projeto</a></Button_about>
+                        <Button_about className="Button_about"><a href="https://github.com/barretogustavo/LearnVerbs-project" target="_blank">GitHub</a></Button_about>
                     </div>
                 </div>
                 <div className="project1" id="project_style">
                     <img src={img_project4} />
+                    <h2 className="swipe_smartphone">➜</h2>
                     <div className="name_project" id="name_project_effect">Clone do Google 
                         <span><br/><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fermentum at tellus a dictum. Nullam ex arcu, pellentesque ac iaculis vel, cursus sed tellus. Vestibulum quis lorem a erat commodo commodo.</span>
                         <Button_about className="Button_about"><a href="" target="_blank">Ver projeto</a></Button_about>
@@ -78,17 +85,20 @@ return(<div className="container">
                 </div>
                 <div className="project1" id="project_style">
                     <img src={img_project5} />
+                    <h2 className="swipe_smartphone">➜</h2>
                     <div className="name_project" id="name_project_effect">Template Flexbox
                         <span><br/><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fermentum at tellus a dictum. Nullam ex arcu, pellentesque ac iaculis vel, cursus sed tellus. Vestibulum quis lorem a erat commodo commodo.</span>
-                        <Button_about className="Button_about"><a href="" target="_blank">Ver projeto</a></Button_about>
+                        <Button_about className="Button_about"><a href="https://barretogustavo.github.io/MedCenter/" target="_blank">Ver projeto</a></Button_about>
                         <Button_about className="Button_about"><a href="https://github.com/barretogustavo/MedCenter" target="_blank">GitHub</a></Button_about>
                     </div>
                 </div>
                 <div className="project1" id="project_style">
-                    <div className="name_project" id="name_project_effect">Project name 6 
+                    <img src={img_project6} />
+                    <h2 className="swipe_smartphone">➜</h2>
+                    <div className="name_project" id="name_project_effect">Web Paint - Desenhe
                         <span><br/><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fermentum at tellus a dictum. Nullam ex arcu, pellentesque ac iaculis vel, cursus sed tellus. Vestibulum quis lorem a erat commodo commodo.</span>
-                        <Button_about className="Button_about"><a href="" target="_blank">Ver projeto</a></Button_about>
-                        <Button_about className="Button_about"><a href="" target="_blank">GitHub</a></Button_about>
+                        <Button_about className="Button_about"><a href="https://barretogustavo.github.io/paint-JS/" target="_blank">Ver projeto</a></Button_about>
+                        <Button_about className="Button_about"><a href="https://github.com/barretogustavo/paint-JS" target="_blank">GitHub</a></Button_about>
                     </div>
                 </div>
             </Projects_content>
