@@ -51,7 +51,7 @@ return(<div className="container">
                     <img src={img_project1} />
                     <h2 className="swipe_smartphone">➜</h2>
                     <div className="name_project" id="name_project_effect">E-commerce de Pizza
-                        <span><br/><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fermentum at tellus a dictum. Nullam ex arcu, pellentesque ac iaculis vel, cursus sed tellus. Vestibulum quis lorem a erat commodo commodo.</span>
+                        <span><br/><br/>Este projeto conta com bastante lógica de programação aplicada no Javascript. Neste projeto, implementei todas as funcionalidade que devem estar presentes em um e-commerce.</span>
                         <Button_about className="Button_about"><a href="https://barretogustavo.github.io/Ecommerce-Pizza/" target="_blank">Ver projeto</a></Button_about>
                         <Button_about className="Button_about"><a href="https://github.com/barretogustavo/Ecommerce-Pizza" target="_blank">GitHub</a></Button_about>
                     </div>
@@ -60,7 +60,7 @@ return(<div className="container">
                     <img src={img_project2} /> 
                     <h2 className="swipe_smartphone">➜</h2>                   
                     <div className="name_project" id="name_project_effect">Clima Hoje 
-                        <span><br/><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fermentum at tellus a dictum. Nullam ex arcu, pellentesque ac iaculis vel, cursus sed tellus. Vestibulum quis lorem a erat commodo commodo.</span>
+                        <span><br/><br/>Utilizando a OpenWeather API, criei este projeto para mostrar minhas noções de requisições e utilização de API's com Javascript.</span>
                         <Button_about className="Button_about"><a href="https://barretogustavo.github.io/ClimaTempo/" target="_blank">Ver projeto</a></Button_about>
                         <Button_about className="Button_about"><a href="https://github.com/barretogustavo/ClimaTempo" target="_blank">GitHub</a></Button_about>
                     </div>
@@ -69,7 +69,7 @@ return(<div className="container">
                     <img src={img_project3} />
                     <h2 className="swipe_smartphone">➜</h2>
                     <div className="name_project" id="name_project_effect">Estude Inglês 
-                        <span><br/><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fermentum at tellus a dictum. Nullam ex arcu, pellentesque ac iaculis vel, cursus sed tellus. Vestibulum quis lorem a erat commodo commodo.</span>
+                        <span><br/><br/>Neste projeto, utilizei a mesma lógica aplicada ao projeto da Pizza, porém, em um contexto educacional. Ao analisar este código, poderá ver que está limpo e organizado,, além de ter um design muito bonito e agradável.</span>
                         <Button_about className="Button_about"><a href="https://barretogustavo.github.io/LearnVerbs-project/" target="_blank">Ver projeto</a></Button_about>
                         <Button_about className="Button_about"><a href="https://github.com/barretogustavo/LearnVerbs-project" target="_blank">GitHub</a></Button_about>
                     </div>
@@ -78,7 +78,7 @@ return(<div className="container">
                     <img src={img_project4} />
                     <h2 className="swipe_smartphone">➜</h2>
                     <div className="name_project" id="name_project_effect">Clone do Google 
-                        <span><br/><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fermentum at tellus a dictum. Nullam ex arcu, pellentesque ac iaculis vel, cursus sed tellus. Vestibulum quis lorem a erat commodo commodo.</span>
+                        <span><br/><br/>Meu primeiro projeto criado quando terminei meu curso de HTML e CSS. Este trata-se de um clone da UI do Google, além de eu ter adicionado um modo noturno.</span>
                         <Button_about className="Button_about"><a href="" target="_blank">Ver projeto</a></Button_about>
                         <Button_about className="Button_about"><a href="https://github.com/barretogustavo/googleclone" target="_blank">GitHub</a></Button_about>
                     </div>
@@ -87,7 +87,7 @@ return(<div className="container">
                     <img src={img_project5} />
                     <h2 className="swipe_smartphone">➜</h2>
                     <div className="name_project" id="name_project_effect">Template Flexbox
-                        <span><br/><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fermentum at tellus a dictum. Nullam ex arcu, pellentesque ac iaculis vel, cursus sed tellus. Vestibulum quis lorem a erat commodo commodo.</span>
+                        <span><br/><br/>Template criada usando Flexbox para deixar o site adaptável e responsivo. Assim ele fica atraente em qualquer dispositivo.</span>
                         <Button_about className="Button_about"><a href="https://barretogustavo.github.io/MedCenter/" target="_blank">Ver projeto</a></Button_about>
                         <Button_about className="Button_about"><a href="https://github.com/barretogustavo/MedCenter" target="_blank">GitHub</a></Button_about>
                     </div>
@@ -96,7 +96,7 @@ return(<div className="container">
                     <img src={img_project6} />
                     <h2 className="swipe_smartphone">➜</h2>
                     <div className="name_project" id="name_project_effect">Web Paint - Desenhe
-                        <span><br/><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fermentum at tellus a dictum. Nullam ex arcu, pellentesque ac iaculis vel, cursus sed tellus. Vestibulum quis lorem a erat commodo commodo.</span>
+                        <span><br/><br/>Um projeto bem desafiador que me permitiu conhecer novas funções do Javascript. Aqui, o usuário pode desenhar em um quadro branco e escolher várias cores para colorir.</span>
                         <Button_about className="Button_about"><a href="https://barretogustavo.github.io/paint-JS/" target="_blank">Ver projeto</a></Button_about>
                         <Button_about className="Button_about"><a href="https://github.com/barretogustavo/paint-JS" target="_blank">GitHub</a></Button_about>
                     </div>
