@@ -75,16 +75,16 @@ nav ul{
                 }
                 .a_default{
                     text-decoration:none;
-                    &:visited{
+                }
+                .a_default:visited{
                         color:#e9723d;
                     }
-                }
                 .a_different{
-                    text-decoration:none;
-                    &:visited{
+                    text-decoration:none;                    
+                }
+                .a_different:visited{
                         color:black;
                     }
-                }
 
         }
     }

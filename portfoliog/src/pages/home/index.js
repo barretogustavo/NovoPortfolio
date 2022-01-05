@@ -87,7 +87,7 @@ return(<div className="container">
                     <img src={img_project5} />
                     <h2 className="swipe_smartphone">➜</h2>
                     <div className="name_project" id="name_project_effect">Template Flexbox
-                        <span><br/><br/>Template criada usando Flexbox para deixar o site adaptável e responsivo. Assim ele fica atraente em qualquer dispositivo.</span>
+                        <span><br/><br/>Template criada usando Flexbox para deixar o site adaptável e responsivo. Assim ele fica atraente em qualquer dispositivo e melhora a usabilidade.</span>
                         <Button_about className="Button_about"><a href="https://barretogustavo.github.io/MedCenter/" target="_blank">Ver projeto</a></Button_about>
                         <Button_about className="Button_about"><a href="https://github.com/barretogustavo/MedCenter" target="_blank">GitHub</a></Button_about>
                     </div>
